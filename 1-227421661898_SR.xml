@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><messages>
+   <input>
+<Invoke_PCM_OP_STC_POL_DEPOSIT_REFUND_InputVariable>
+         <part xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PCM_OP_STC_POL_DEPOSIT_REFUND_inputFlist">
+            <PCM_OP_STC_POL_DEPOSIT_REFUND_inputFlist xmlns="http://xmlns.oracle.com/BRM/schemas/BusinessOpcodes" xmlns:dvm="http://www.oracle.com/XSL/Transform/java/oracle.tip.dvm.LookupValue" xmlns:ns2="http://xmlns.oracle.com/BRM/schemas/BusinessOpcodes">
+               <ns2:ACCOUNT_NO>0.0.0.1 /account 240039118204 0</ns2:ACCOUNT_NO>
+               <ns2:AMOUNT>50</ns2:AMOUNT>
+               <ns2:EVENT_DESCR>Refund</ns2:EVENT_DESCR>
+               <ns2:POID>0.0.0.1 /account 240039118204 0</ns2:POID>
+               <ns2:REASON_CODE>CLDR</ns2:REASON_CODE>
+            </PCM_OP_STC_POL_DEPOSIT_REFUND_inputFlist>
+         </part>
+      </Invoke_PCM_OP_STC_POL_DEPOSIT_REFUND_InputVariable>
+   </input>
+   <fault>
+<bpelFault>
+         <faultType>0</faultType>
+         <bindingFault xmlns="http://schemas.oracle.com/bpel/extension">
+            <part name="summary">
+               <summary>Exception occurred when binding was invoked.
+Exception occurred during invocation of JCA binding: "JCA Binding execute of Reference operation 'PCM_OP_STC_POL_DEPOSIT_REFUND' failed due to: Location=FM ErrMsg=ERR_BAD_VALUE ErrStr=ERR_BAD_VALUE Field=PIN_FLD_ACCOUNT_OBJ RecID=0.
+". 
+</summary>
+            </part>
+            <part name="code">
+               <code>46</code>
+            </part>
+            <part name="detail">
+               <detail>BRM-ERR_BAD_VALUE</detail>
+            </part>
+         </bindingFault>
+      </bpelFault>
+   </fault>
+   <faultType>
+<message>0</message>
+   </faultType>
+</messages>
