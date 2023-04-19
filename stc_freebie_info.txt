@@ -1,0 +1,16 @@
+stc_freebie_info.h
+
+#define UNL_RKSA_MIN                    1000372
+#define UNL_RKSA_IC_MIN                 1000373
+#define UNL_RF_IC_SMS                   1000374
+#define UNL_RGCC_IC_MIN                 1000376
+#define UNL_RUAE_MIN                    1000378
+#define UNL_RUAE_IC_MIN                 1000379
+
+
+int32 V_UNL_RKSA_MIN = 1000372;
+int32 V_UNL_RKSA_IC_MIN = 1000373;
+int32 V_UNL_RF_IC_SMS = 1000374;
+int32 V_UNL_RGCC_IC_MIN = 1000376;
+int32 V_UNL_RUAE_MIN = 1000378;
+int32 V_UNL_RUAE_IC_MIN = 1000379;
