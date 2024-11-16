@@ -1,2 +1,0 @@
-# GitHubPractice
-GitHubPractice
