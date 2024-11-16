@@ -1,6 +1,0 @@
-this is test file
-secodn line added
-third line added
-this is third scenario
-
-4th line is added by other
